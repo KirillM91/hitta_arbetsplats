@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hitta_arbetsplats/static/css/main.1ad845d5.css",
+    "main.js": "/hitta_arbetsplats/static/js/main.ef245deb.js",
+    "static/js/787.bfea1274.chunk.js": "/hitta_arbetsplats/static/js/787.bfea1274.chunk.js",
+    "index.html": "/hitta_arbetsplats/index.html",
+    "main.1ad845d5.css.map": "/hitta_arbetsplats/static/css/main.1ad845d5.css.map",
+    "main.ef245deb.js.map": "/hitta_arbetsplats/static/js/main.ef245deb.js.map",
+    "787.bfea1274.chunk.js.map": "/hitta_arbetsplats/static/js/787.bfea1274.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ad845d5.css",
+    "static/js/main.ef245deb.js"
+  ]
+}
