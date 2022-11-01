@@ -1,0 +1,115 @@
+.search-parameters{    
+    width: 800px;
+    margin: 0 auto 50px auto;
+    padding: 0 30px 0 30px;    
+}
+
+
+.search-parameter-bubble{
+    position: relative;
+    background-color: #F79032;
+    text-align: center;
+    line-height: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 5px; 
+    color: white;   
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-parameter-bubble:hover{
+    border: 2px solid #F79032;
+    color: #F79032;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 27px;
+}
+
+.search-parameter-bubble:hover::after{
+    content: "x";
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 24px;
+    right: 12px;
+}
+
+.new-search-parameter{    
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    margin: 5px; 
+    color: black;   
+    font-family: sans-serif;
+    font-size: 1.4rem;    
+    cursor: pointer;
+    z-index: 2;
+    
+}
+
+.new-search-parameter:hover{
+    color: white;     
+}
+
+.new-search-parameter:hover::after{
+    content: "";
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.search-parameter-bubble-container{
+    display: flex;
+    margin-bottom: 20px;    
+    padding: 0 30px 0 30px;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-parameters p{
+    color: #A1A1A1;
+    letter-spacing: 2px;
+    position: relative;
+    top: 29px;
+    left: -45px;
+}
+
+.search-parameters .add-new-searchword{
+    top: 54px;
+    left: 70px;
+}
+
+
+.search-button{
+    position: relative;
+    display: flex;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 20px;
+    align-items: center;
+    height: 30px;    
+    overflow: hidden;     
+    margin: 30px auto 30px auto; 
+    /* left: 85px; */
+}
+
+input{    
+    height: 80%;
+    margin-left: 15px;
+    border: 1px solid rgba(119, 119, 119, 0.575);   
+    z-index: 10; 
+}
+
+input:focus {
+    outline: 1px solid rgba(255, 166, 0, 0.384);
+    border: 1px solid orange;
+}
