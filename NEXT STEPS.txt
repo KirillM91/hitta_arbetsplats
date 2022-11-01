@@ -1,0 +1,6 @@
+Nästa steg:
+•	Ändra så att annonsernas brödtext visas som formaterad text i stället för ren text.
+•	Skapa en mobil vy.
+•	En knapp längst ner som laddar in fler annonser/Ladda in flera annonser automatiskt (typ infinite scroll).
+•	Spara sökkriterier/sökord i local storage. 
+•	Rensa upp kod och sätta rätt datatyper på visa saker.
